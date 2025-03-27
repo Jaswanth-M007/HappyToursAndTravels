@@ -6,9 +6,24 @@
     <title>Happy Travels - Your Trusted Travel Partner in India</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
+      <!-- Navigation Header -->
+      <nav class="nav-header">
+        <div class="nav-container">
+          <a href="#" class="nav-logo">Happy Travels</a>
+          <ul class="nav-links">
+            <li><a href="#vehicles">Vehicles</a></li>
+            <li><a href="#homestays">Homestays</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
       <!-- Hero Section -->
       <div class="hero">
         <div class="hero-overlay">
@@ -22,33 +37,37 @@
       <!-- Main Content -->
       <div class="main-content">
         <!-- Vehicle Section -->
-        <div class="card">
+        <div id="vehicles" class="card">
           <div class="card-header">
             <i data-lucide="car"></i>
-            <h2>Our Vehicle Fleet</h2>
+            <h2>Premium Vehicle Fleet</h2>
           </div>
           <p>
-            Experience comfortable journeys with our well-maintained fleet of vehicles including luxury tempo travelers and cars. 
-            Perfect for both small groups and large families, our vehicles are equipped with modern amenities to ensure a pleasant travel experience.
+            Experience unparalleled comfort with our meticulously maintained fleet of luxury vehicles. 
+            From premium tempo travelers to executive cars, we cater to both intimate groups and large families. 
+            Each vehicle is equipped with modern amenities, ensuring your journey is as memorable as your destination.
           </p>
         </div>
 
         <!-- Homestay Section -->
-        <div class="card">
+        <div id="homestays" class="card">
           <div class="card-header">
             <i data-lucide="home"></i>
-            <h2>Affordable Homestays</h2>
+            <h2>Authentic Homestays</h2>
           </div>
           <p>
-            Immerse yourself in authentic Indian hospitality with our carefully selected homestays. 
-            We offer budget-friendly accommodation options that provide a comfortable and cultural stay experience. 
-            Our homestays are perfect for travelers looking to experience local lifestyle while maintaining comfort and affordability.
+            Discover the true essence of Indian hospitality through our carefully curated homestays. 
+            We pride ourselves in offering budget-friendly accommodations that don't compromise on comfort or authenticity. 
+            Immerse yourself in local culture while enjoying modern amenities in our welcoming homestay properties.
           </p>
         </div>
 
         <!-- Contact Section -->
-        <div class="card">
-          <h2>Contact Us</h2>
+        <div id="contact" class="card">
+          <div class="card-header">
+            <i data-lucide="contact"></i>
+            <h2>Get in Touch</h2>
+          </div>
           <div class="contact-info">
             <div class="contact-item">
               <i data-lucide="map-pin"></i>
