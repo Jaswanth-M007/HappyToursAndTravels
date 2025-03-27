@@ -27,7 +27,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.95);
+  background: black;
   color: white;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
