@@ -2,12 +2,79 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Happy Travels - Your Trusted Travel Partner in India</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="container">
+      <!-- Hero Section -->
+      <div class="hero">
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <h1>Happy Travels</h1>
+            <p>Your Trusted Travel Partner in India</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Vehicle Section -->
+        <div class="card">
+          <div class="card-header">
+            <i data-lucide="car"></i>
+            <h2>Our Vehicle Fleet</h2>
+          </div>
+          <p>
+            Experience comfortable journeys with our well-maintained fleet of vehicles including luxury tempo travelers and cars. 
+            Perfect for both small groups and large families, our vehicles are equipped with modern amenities to ensure a pleasant travel experience.
+          </p>
+        </div>
+
+        <!-- Homestay Section -->
+        <div class="card">
+          <div class="card-header">
+            <i data-lucide="home"></i>
+            <h2>Affordable Homestays</h2>
+          </div>
+          <p>
+            Immerse yourself in authentic Indian hospitality with our carefully selected homestays. 
+            We offer budget-friendly accommodation options that provide a comfortable and cultural stay experience. 
+            Our homestays are perfect for travelers looking to experience local lifestyle while maintaining comfort and affordability.
+          </p>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="card">
+          <h2>Contact Us</h2>
+          <div class="contact-info">
+            <div class="contact-item">
+              <i data-lucide="map-pin"></i>
+              <p>
+                123 Tourism Road, Kerala Tourism Hub<br>
+                Kochi, Kerala - 682001
+              </p>
+            </div>
+            <div class="contact-item">
+              <i data-lucide="phone"></i>
+              <p>
+                +91 98765 43210<br>
+                +91 98765 43211
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <p>© 2024 Happy Travels. All rights reserved.</p>
+      </footer>
+    </div>
+    <script>
+      lucide.createIcons();
+    </script>
   </body>
 </html>
