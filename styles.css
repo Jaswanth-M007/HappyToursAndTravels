@@ -301,7 +301,8 @@ footer p {
 
   .card-header {
     gap: 0.75rem;
-  }
+    font-size: 3.25rem; /* Adjust the size as needed */
+}
 
   .contact-item {
     padding: 0.75rem;
