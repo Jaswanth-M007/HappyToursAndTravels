@@ -22,18 +22,17 @@ body {
 }
 
 /* Navigation Bar */
-.nav-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  z-index: 1000;
-  padding: 0.75rem 0;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+.nav-header { 
+position: fixed; 
+top: 0; 
+left: 0; 
+right: 0; 
+background: rgba(255, 255, 255, 0.95); 
+backdrop-filter: blur(10px); 
+-webkit-backdrop-filter: blur(10px); 
+z-index: 1000; 
+padding: 0.75rem 0; 
+box-shadow: 0 2px 20px rgba(0,0,0,0.1); 
 }
 
 
