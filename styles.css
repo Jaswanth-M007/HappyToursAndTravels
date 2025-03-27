@@ -306,4 +306,8 @@ footer p {
   .contact-item {
     padding: 0.75rem;
   }
+  .para {
+    font-size: 0.85rem; /* Smaller font size for small screens */
+    line-height: 1.4; /* Adjust line spacing for better readability */
+  }
 }
